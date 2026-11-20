@@ -34,7 +34,7 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
 `whatisit`, `weddingshaming`, `UKPersonalFinance`, `GTA6unmoderated`, `mildlyinfuriating`, `SubredditDrama`, `cats`,
 `PeterExplainsTheJoke`, `GirlDinnerDiaries`, `antimeme`, `GTA6`, `LivestreamFail`, `wowforever`, `Linkedinfr`,
 `IaCaca`, `tennis`, `StardustCrusaders`, `wow`, `chats`, `kingdomcome`, `TikTokCringe`, `rugbyunion`,
-`Deltarune`, `leagueoflegends`.
+`Deltarune`, `leagueoflegends`, `countwithchickenlady`, `ExplainTheJoke`, `pathofexile*`, `CrusaderKings`.
 
 - **Formule 1** : `*f1*`, `*formula1*`, `formulaone*`, `formuladank`.
 - **Jeux gacha** : `*gacha*`, `*genshin*`, `*honkai*`, `HonkaiStarRail`, `houkai3rd`, `*starrail*`, `*zenless*`, `ZZZ_*`, `*wuthering*`,
@@ -47,6 +47,20 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
   `newworldgame`, `throneandliberty`, `albiononline`, `Eve`, `swtor`, `lotro`, `Maplestory`, `AshesofCreation`,
   `PSO2`, `PSO2NGS`, `bladeandsoul`, `aion`, `TibiaMMO`, `everquest`, `project1999`, `Neverwinter`, `sto`, `ddo`,
   `Cityofheroes`, `Wizard101`, `Mabinogi`, `Lineage2`, `RagnarokOnline`, `DFO`, `Dofus`, `wakfu`.
+- **FPS** : `*overwatch*`, `*valorant*`, `GlobalOffensive`, `cs2`, `csgo`, `counterstrike`, `CallOfDuty`,
+  `CODWarzone`, `Warzone`, `CODZombies`, `CoDCompetitive`, `blackops*`, `ModernWarfare*`, `battlefield*`,
+  `apexlegends`, `apexuniversity`, `CompetitiveApex`, `Rainbow6*`, `SiegeAcademy`, `halo`, `haloinfinite`,
+  `CompetitiveHalo`, `DestinyTheGame`, `destiny2`, `LowSodiumDestiny`, `Doom`, `EscapefromTarkov`, `Tarkov`,
+  `thefinals`, `tf2`, `PUBATTLEGROUNDS`, `titanfall`, `HuntShowdown`, `Splitgate`, `Borderlands*`, `farcry`,
+  `HalfLife`, `quake`, `HellLetLoose`, `ReadyOrNotGame`, `paydaytheheist`, `DeepRockGalactic`, `killingfloor`, `l4d2`,
+  `stalker`, `insurgency`, `joinsquad`, `arma`, `BattleBitRemastered`, `DeltaForceGlobal`, `Planetside`.
+- **Jeux de foot** : `EASportsFC`, `EAFC`, `fut`, `FIFA`, `FifaCareers`, `FUTMobile`, `footballmanagergames`,
+  `footballmanager`, `eFootball`, `WEPES`, `pesmobile`, `UFLTheGame`, `FantasyPL`.
+- **Clubs de foot** : `reddevils`, `Gunners`, `LiverpoolFC`, `chelseafc`, `coys`, `MCFC`, `NUFC`, `avfc`, `Hammers`,
+  `Everton`, `lcfc`, `LeedsUnited`, `nffc`, `WWFC`, `crystalpalace`, `BrightonHoveAlbion`, `realmadrid`, `Barca`,
+  `atletico`, `ACMilan`, `Juve`, `FCInterMilan`, `ASRoma`, `sscnapoli`, `fcbayern`, `borussiadortmund`, `psg`,
+  `Olympique*`, `ASMonaco`, `RCLens`, `ASSE`, `LOSC`, `FCNantes`, `staderennais`, `benfica`, `fcporto`, `SportingCP`,
+  `AjaxAmsterdam`, `CelticFC`, `rangersfc`, `InterMiami`.
 
 ## Fonctionnement
 
