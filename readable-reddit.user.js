@@ -2,7 +2,7 @@
 // @name            Readable Reddit
 // @name:fr         Readable Reddit
 // @namespace       https://github.com/sisichakal/readablereddit
-// @version         1.1.0
+// @version         1.1.1
 // @description     Hides posts from unwanted subreddits in Reddit feeds and disables automatic machine translation.
 // @description:fr  Masque les posts des subreddits indésirables dans les flux Reddit et désactive la traduction automatique.
 // @match           https://*.reddit.com/*
@@ -60,6 +60,7 @@
         '*gacha*',
         '*genshin*',
         '*honkai*',
+        'HonkaiStarRail',
         'houkai3rd',
         '*starrail*',
         '*zenless*',

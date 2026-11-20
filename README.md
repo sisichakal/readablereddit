@@ -36,7 +36,7 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
 `IaCaca`, `tennis`, `StardustCrusaders`, `wow`, `chats`, `kingdomcome`, `TikTokCringe`, `rugbyunion`.
 
 - **Formule 1** : `*f1*`, `*formula1*`, `formulaone*`, `formuladank`.
-- **Jeux gacha** : `*gacha*`, `*genshin*`, `*honkai*`, `houkai3rd`, `*starrail*`, `*zenless*`, `ZZZ_*`, `*wuthering*`,
+- **Jeux gacha** : `*gacha*`, `*genshin*`, `*honkai*`, `HonkaiStarRail`, `houkai3rd`, `*starrail*`, `*zenless*`, `ZZZ_*`, `*wuthering*`,
   `*arknights*`, `Endfield`, `Nikke*`, `InfinityNikki`, `*bluearchive*`, `grandorder`, `FGO`, `UmaMusume*`, `AzureLane`,
   `limbuscompany`, `Reverse1999`, `PunishingGrayRaven`, `girlsfrontline*`, `SnowbreakOfficial`, `ChaosZeroNightmare`,
   `StellaSora`, `EpicSeven`, `AFKJourney`, `Granblue_en`, `FireEmblemHeroes`, `FFBraveExvius`, `DBZDokkanBattle`,
