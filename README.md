@@ -25,13 +25,22 @@ Menu Tampermonkey → **Readable Reddit** → **Paramètres…**
 - **Désactiver la traduction automatique** : case à cocher (activée par défaut).
 
 Les réglages sont stockés par Tampermonkey et synchronisés entre les onglets ouverts. Tant qu'aucune liste n'a été
-enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'applique.
+enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'applique. Ensuite, les entrées ajoutées
+à cette liste par une mise à jour du script sont fusionnées dans la liste enregistrée, sans rétablir celles qui ont
+été retirées à la main.
 
 ### Liste par défaut
 
 `whatisit`, `weddingshaming`, `UKPersonalFinance`, `GTA6unmoderated`, `mildlyinfuriating`, `SubredditDrama`, `cats`,
 `PeterExplainsTheJoke`, `GirlDinnerDiaries`, `antimeme`, `GTA6`, `LivestreamFail`, `wowforever`, `Linkedinfr`,
-`IaCaca`, `tennis`, et la Formule 1 via `*f1*`, `*formula1*`, `formulaone*`, `formuladank`.
+`IaCaca`, `tennis`, `StardustCrusaders`, `wow`, `chats`, `kingdomcome`, `TikTokCringe`, `rugbyunion`.
+
+- **Formule 1** : `*f1*`, `*formula1*`, `formulaone*`, `formuladank`.
+- **Jeux gacha** : `*gacha*`, `*genshin*`, `*honkai*`, `houkai3rd`, `*starrail*`, `*zenless*`, `ZZZ_*`, `*wuthering*`,
+  `*arknights*`, `Endfield`, `Nikke*`, `InfinityNikki`, `*bluearchive*`, `grandorder`, `FGO`, `UmaMusume*`, `AzureLane`,
+  `limbuscompany`, `Reverse1999`, `PunishingGrayRaven`, `girlsfrontline*`, `SnowbreakOfficial`, `ChaosZeroNightmare`,
+  `StellaSora`, `EpicSeven`, `AFKJourney`, `Granblue_en`, `FireEmblemHeroes`, `FFBraveExvius`, `DBZDokkanBattle`,
+  `DragonballLegends`, `SummonersWar`, `RaidShadowLegends`.
 
 ## Fonctionnement
 
@@ -54,4 +63,5 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
 - Reddit modifie régulièrement son HTML : si le masquage cesse de fonctionner, les sélecteurs sont regroupés dans
   `postSelector` et `aSubredditAttributes`.
 - Seuls les posts sont masqués, pas les suggestions de communautés des panneaux latéraux.
-- Le joker `*f1*` est volontairement large et peut masquer un subreddit sans rapport dont le nom contient « f1 ».
+- Les jokers (`*f1*`, `*gacha*`…) sont volontairement larges et peuvent masquer un subreddit sans rapport dont le nom
+  contient ces lettres.

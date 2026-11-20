@@ -2,7 +2,7 @@
 // @name            Readable Reddit
 // @name:fr         Readable Reddit
 // @namespace       https://github.com/sisichakal/readablereddit
-// @version         1.0.0
+// @version         1.1.0
 // @description     Hides posts from unwanted subreddits in Reddit feeds and disables automatic machine translation.
 // @description:fr  Masque les posts des subreddits indésirables dans les flux Reddit et désactive la traduction automatique.
 // @match           https://*.reddit.com/*
@@ -26,8 +26,8 @@
     // Defaults
     // ---------------------------------------------------------------------
 
-    // Subreddit names are case-insensitive; "*" is a wildcard. This list only
-    // applies until the user saves their own list from the settings dialogue.
+    // Subreddit names are case-insensitive; "*" is a wildcard. Entries added
+    // here in a later version are merged into the list the user has saved.
     const aDefaultSubreddits = [
         'whatisit',
         'weddingshaming',
@@ -45,11 +45,52 @@
         'Linkedinfr',
         'IaCaca',
         'tennis',
+        'StardustCrusaders',
+        'wow',
+        'chats',
+        'kingdomcome',
+        'TikTokCringe',
+        'rugbyunion',
         // Formula 1 (formula1, F1Technical, F1Game, McLarenFormula1, WilliamsF1…)
         '*f1*',
         '*formula1*',
         'formulaone*',
         'formuladank',
+        // Gacha games (wildcards also cover the leaks / memes / fan-art spin-offs)
+        '*gacha*',
+        '*genshin*',
+        '*honkai*',
+        'houkai3rd',
+        '*starrail*',
+        '*zenless*',
+        'Zenlesszonezeroleaks_',
+        'ZZZ_*',
+        '*wuthering*',
+        '*arknights*',
+        'Endfield',
+        'Nikke*',
+        'InfinityNikki',
+        '*bluearchive*',
+        'grandorder',
+        'FGO',
+        'UmaMusume*',
+        'AzureLane',
+        'limbuscompany',
+        'Reverse1999',
+        'PunishingGrayRaven',
+        'girlsfrontline*',
+        'SnowbreakOfficial',
+        'ChaosZeroNightmare',
+        'StellaSora',
+        'EpicSeven',
+        'AFKJourney',
+        'Granblue_en',
+        'FireEmblemHeroes',
+        'FFBraveExvius',
+        'DBZDokkanBattle',
+        'DragonballLegends',
+        'SummonersWar',
+        'RaidShadowLegends',
     ];
 
     const hiddenAttribute = 'data-rr-hidden';
@@ -131,10 +172,29 @@
         return aResult;
     }
 
+    /**
+     * Returns the saved list, or the defaults when nothing has been saved yet.
+     * Defaults that did not exist when the list was last saved are appended, so
+     * script updates bring new entries without restoring the ones the user removed.
+     */
     function loadSubreddits() {
         const aStored = GM_getValue('subreddits', null);
 
-        return parseSubredditList((Array.isArray(aStored) ? aStored : aDefaultSubreddits).join('\n'));
+        if (!Array.isArray(aStored)) {
+            return parseSubredditList(aDefaultSubreddits.join('\n'));
+        }
+
+        const aKnownDefaults = GM_getValue('knownDefaults', null);
+        const oKnown = new Set((Array.isArray(aKnownDefaults) ? aKnownDefaults : []).map((name) => name.toLowerCase()));
+        const aNewDefaults = aDefaultSubreddits.filter((name) => !oKnown.has(name.toLowerCase()));
+        const aMerged = parseSubredditList([...aStored, ...aNewDefaults].join('\n'));
+
+        if (aNewDefaults.length > 0) {
+            GM_setValue('subreddits', aMerged);
+            GM_setValue('knownDefaults', aDefaultSubreddits);
+        }
+
+        return aMerged;
     }
 
     /**
@@ -427,6 +487,7 @@
         bBlockTranslation = bNewBlockTranslation;
 
         GM_setValue('subreddits', aSubreddits);
+        GM_setValue('knownDefaults', aDefaultSubreddits);
         GM_setValue('blockTranslation', bBlockTranslation);
 
         if (bBlockTranslation && enforceUntranslatedPage()) {
