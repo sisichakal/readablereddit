@@ -2,7 +2,7 @@
 // @name            Readable Reddit
 // @name:fr         Readable Reddit
 // @namespace       https://github.com/sisichakal/readablereddit
-// @version         1.1.1
+// @version         1.2.0
 // @description     Hides posts from unwanted subreddits in Reddit feeds and disables automatic machine translation.
 // @description:fr  Masque les posts des subreddits indésirables dans les flux Reddit et désactive la traduction automatique.
 // @match           https://*.reddit.com/*
@@ -51,6 +51,8 @@
         'kingdomcome',
         'TikTokCringe',
         'rugbyunion',
+        'Deltarune',
+        'leagueoflegends',
         // Formula 1 (formula1, F1Technical, F1Game, McLarenFormula1, WilliamsF1…)
         '*f1*',
         '*formula1*',
@@ -92,6 +94,47 @@
         'DragonballLegends',
         'SummonersWar',
         'RaidShadowLegends',
+        // MMORPGs (r/wow is listed above)
+        'MMORPG',
+        'classicwow',
+        'wownoob',
+        'CompetitiveWoW',
+        'ffxiv*',
+        'ShitpostXIV',
+        'TalesFromDF',
+        'guildwars*',
+        'elderscrollsonline',
+        '*runescape*',
+        '2007scape',
+        'ironscape',
+        'lostarkgame',
+        'blackdesertonline',
+        'newworldgame',
+        'throneandliberty',
+        'albiononline',
+        'Eve',
+        'swtor',
+        'lotro',
+        'Maplestory',
+        'AshesofCreation',
+        'PSO2',
+        'PSO2NGS',
+        'bladeandsoul',
+        'aion',
+        'TibiaMMO',
+        'everquest',
+        'project1999',
+        'Neverwinter',
+        'sto',
+        'ddo',
+        'Cityofheroes',
+        'Wizard101',
+        'Mabinogi',
+        'Lineage2',
+        'RagnarokOnline',
+        'DFO',
+        'Dofus',
+        'wakfu',
     ];
 
     const hiddenAttribute = 'data-rr-hidden';

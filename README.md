@@ -33,7 +33,8 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
 
 `whatisit`, `weddingshaming`, `UKPersonalFinance`, `GTA6unmoderated`, `mildlyinfuriating`, `SubredditDrama`, `cats`,
 `PeterExplainsTheJoke`, `GirlDinnerDiaries`, `antimeme`, `GTA6`, `LivestreamFail`, `wowforever`, `Linkedinfr`,
-`IaCaca`, `tennis`, `StardustCrusaders`, `wow`, `chats`, `kingdomcome`, `TikTokCringe`, `rugbyunion`.
+`IaCaca`, `tennis`, `StardustCrusaders`, `wow`, `chats`, `kingdomcome`, `TikTokCringe`, `rugbyunion`,
+`Deltarune`, `leagueoflegends`.
 
 - **Formule 1** : `*f1*`, `*formula1*`, `formulaone*`, `formuladank`.
 - **Jeux gacha** : `*gacha*`, `*genshin*`, `*honkai*`, `HonkaiStarRail`, `houkai3rd`, `*starrail*`, `*zenless*`, `ZZZ_*`, `*wuthering*`,
@@ -41,6 +42,11 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
   `limbuscompany`, `Reverse1999`, `PunishingGrayRaven`, `girlsfrontline*`, `SnowbreakOfficial`, `ChaosZeroNightmare`,
   `StellaSora`, `EpicSeven`, `AFKJourney`, `Granblue_en`, `FireEmblemHeroes`, `FFBraveExvius`, `DBZDokkanBattle`,
   `DragonballLegends`, `SummonersWar`, `RaidShadowLegends`.
+- **MMORPG** : `MMORPG`, `classicwow`, `wownoob`, `CompetitiveWoW`, `ffxiv*`, `ShitpostXIV`, `TalesFromDF`,
+  `guildwars*`, `elderscrollsonline`, `*runescape*`, `2007scape`, `ironscape`, `lostarkgame`, `blackdesertonline`,
+  `newworldgame`, `throneandliberty`, `albiononline`, `Eve`, `swtor`, `lotro`, `Maplestory`, `AshesofCreation`,
+  `PSO2`, `PSO2NGS`, `bladeandsoul`, `aion`, `TibiaMMO`, `everquest`, `project1999`, `Neverwinter`, `sto`, `ddo`,
+  `Cityofheroes`, `Wizard101`, `Mabinogi`, `Lineage2`, `RagnarokOnline`, `DFO`, `Dofus`, `wakfu`.
 
 ## Fonctionnement
 
