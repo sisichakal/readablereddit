@@ -34,7 +34,8 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
 `whatisit`, `weddingshaming`, `UKPersonalFinance`, `GTA6unmoderated`, `mildlyinfuriating`, `SubredditDrama`, `cats`,
 `PeterExplainsTheJoke`, `GirlDinnerDiaries`, `antimeme`, `GTA6`, `LivestreamFail`, `wowforever`, `Linkedinfr`,
 `IaCaca`, `tennis`, `StardustCrusaders`, `wow`, `chats`, `kingdomcome`, `TikTokCringe`, `rugbyunion`,
-`Deltarune`, `leagueoflegends`, `countwithchickenlady`, `ExplainTheJoke`, `pathofexile*`, `CrusaderKings`.
+`Deltarune`, `leagueoflegends`, `countwithchickenlady`, `ExplainTheJoke`, `pathofexile*`, `CrusaderKings`,
+`dragonage*`, `*rimworld*`, `Undertale*`, `*totalwar*`, `shogun2`, `vinted_france`, `egg_irl`.
 
 - **Formule 1** : `*f1*`, `*formula1*`, `formulaone*`, `formuladank`.
 - **Jeux gacha** : `*gacha*`, `*genshin*`, `*honkai*`, `HonkaiStarRail`, `houkai3rd`, `*starrail*`, `*zenless*`, `ZZZ_*`, `*wuthering*`,
@@ -61,6 +62,14 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
   `atletico`, `ACMilan`, `Juve`, `FCInterMilan`, `ASRoma`, `sscnapoli`, `fcbayern`, `borussiadortmund`, `psg`,
   `Olympique*`, `ASMonaco`, `RCLens`, `ASSE`, `LOSC`, `FCNantes`, `staderennais`, `benfica`, `fcporto`, `SportingCP`,
   `AjaxAmsterdam`, `CelticFC`, `rangersfc`, `InterMiami`.
+- **Jeux d'automatisation** : `*factorio*`, `satisfactory*`, `Dyson_Sphere_Program`, `shapez*`, `Mindustry`,
+  `CaptainOfIndustry`, `Techtonica`, `FoundryGame`, `Oxygennotincluded`, `Zachtronics`, `opus_magnum`,
+  `infinifactory`, `Autonauts`, `AutomationGames`.
+- **Warhammer** : `*warhammer*`, `*40k*`, `*HorusHeresy*`, `Grimdank`, `ageofsigmar`, `Sigmarxism`, `killteam`,
+  `Necromunda`, `bloodbowl`, `spacemarine*`, `Ultramarines`, `BloodAngels`, `theunforgiven`, `SpaceWolves`,
+  `BlackTemplars`, `Greyknights`, `AdeptusCustodes`, `AdeptusMechanicus`, `TheAstraMilitarum`, `sistersofbattle`,
+  `ImperialKnights`, `Tyranids`, `Necrontyr`, `orks`, `Eldar`, `Drukhari`, `LeaguesofVotann`, `ThousandSons`,
+  `EmperorsChildren`, `DarkTide`, `Vermintide`, `RogueTraderCRPG`, `dawnofwar`.
 
 ## Fonctionnement
 

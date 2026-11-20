@@ -2,7 +2,7 @@
 // @name            Readable Reddit
 // @name:fr         Readable Reddit
 // @namespace       https://github.com/sisichakal/readablereddit
-// @version         1.3.0
+// @version         1.4.0
 // @description     Hides posts from unwanted subreddits in Reddit feeds and disables automatic machine translation.
 // @description:fr  Masque les posts des subreddits indésirables dans les flux Reddit et désactive la traduction automatique.
 // @match           https://*.reddit.com/*
@@ -57,6 +57,13 @@
         'ExplainTheJoke',
         'pathofexile*',
         'CrusaderKings',
+        'dragonage*',
+        '*rimworld*',
+        'Undertale*',
+        '*totalwar*',
+        'shogun2',
+        'vinted_france',
+        'egg_irl',
         // Formula 1 (formula1, F1Technical, F1Game, McLarenFormula1, WilliamsF1…)
         '*f1*',
         '*formula1*',
@@ -247,6 +254,55 @@
         'CelticFC',
         'rangersfc',
         'InterMiami',
+        // Automation / factory games
+        '*factorio*',
+        'satisfactory*',
+        'Dyson_Sphere_Program',
+        'shapez*',
+        'Mindustry',
+        'CaptainOfIndustry',
+        'Techtonica',
+        'FoundryGame',
+        'Oxygennotincluded',
+        'Zachtronics',
+        'opus_magnum',
+        'infinifactory',
+        'Autonauts',
+        'AutomationGames',
+        // Warhammer
+        '*warhammer*',
+        '*40k*',
+        '*HorusHeresy*',
+        'Grimdank',
+        'ageofsigmar',
+        'Sigmarxism',
+        'killteam',
+        'Necromunda',
+        'bloodbowl',
+        'spacemarine*',
+        'Ultramarines',
+        'BloodAngels',
+        'theunforgiven',
+        'SpaceWolves',
+        'BlackTemplars',
+        'Greyknights',
+        'AdeptusCustodes',
+        'AdeptusMechanicus',
+        'TheAstraMilitarum',
+        'sistersofbattle',
+        'ImperialKnights',
+        'Tyranids',
+        'Necrontyr',
+        'orks',
+        'Eldar',
+        'Drukhari',
+        'LeaguesofVotann',
+        'ThousandSons',
+        'EmperorsChildren',
+        'DarkTide',
+        'Vermintide',
+        'RogueTraderCRPG',
+        'dawnofwar',
     ];
 
     const hiddenAttribute = 'data-rr-hidden';
