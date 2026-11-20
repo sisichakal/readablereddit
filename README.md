@@ -10,7 +10,7 @@ Fonctionne sur le Reddit actuel (`www.reddit.com`) et sur `old.reddit.com`. Aucu
 ## Installation
 
 1. Installer [Tampermonkey](https://www.tampermonkey.net/) (ou Violentmonkey).
-2. Ouvrir [`readable-reddit.user.js`](https://raw.githubusercontent.com/sisichakal/readablereddit/HEAD/readable-reddit.user.js) : Tampermonkey propose l'installation.
+2. Ouvrir [`readable-reddit.user.js`](https://raw.githubusercontent.com/sisichakal/readablereddit/main/readable-reddit.user.js) : Tampermonkey propose l'installation.
 
 Les mises à jour sont ensuite récupérées automatiquement depuis ce dépôt (`@updateURL`).
 

@@ -15,8 +15,8 @@
 // @grant           GM_addValueChangeListener
 // @homepageURL     https://github.com/sisichakal/readablereddit
 // @supportURL      https://github.com/sisichakal/readablereddit/issues
-// @downloadURL     https://raw.githubusercontent.com/sisichakal/readablereddit/HEAD/readable-reddit.user.js
-// @updateURL       https://raw.githubusercontent.com/sisichakal/readablereddit/HEAD/readable-reddit.user.js
+// @downloadURL     https://raw.githubusercontent.com/sisichakal/readablereddit/main/readable-reddit.user.js
+// @updateURL       https://raw.githubusercontent.com/sisichakal/readablereddit/main/readable-reddit.user.js
 // ==/UserScript==
 
 (() => {
