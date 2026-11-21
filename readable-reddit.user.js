@@ -2,7 +2,7 @@
 // @name            Readable Reddit
 // @name:fr         Readable Reddit
 // @namespace       https://github.com/sisichakal/readablereddit
-// @version         1.4.0
+// @version         1.4.1
 // @description     Hides posts from unwanted subreddits in Reddit feeds and disables automatic machine translation.
 // @description:fr  Masque les posts des subreddits indésirables dans les flux Reddit et désactive la traduction automatique.
 // @match           https://*.reddit.com/*
@@ -64,6 +64,10 @@
         'shogun2',
         'vinted_france',
         'egg_irl',
+        'BoyDinnerDiaries',
+        'Ishowspeed',
+        'nba',
+        'starcitizen',
         // Formula 1 (formula1, F1Technical, F1Game, McLarenFormula1, WilliamsF1…)
         '*f1*',
         '*formula1*',

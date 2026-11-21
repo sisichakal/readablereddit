@@ -35,7 +35,8 @@ enregistrée, c'est la liste par défaut du script (`aDefaultSubreddits`) qui s'
 `PeterExplainsTheJoke`, `GirlDinnerDiaries`, `antimeme`, `GTA6`, `LivestreamFail`, `wowforever`, `Linkedinfr`,
 `IaCaca`, `tennis`, `StardustCrusaders`, `wow`, `chats`, `kingdomcome`, `TikTokCringe`, `rugbyunion`,
 `Deltarune`, `leagueoflegends`, `countwithchickenlady`, `ExplainTheJoke`, `pathofexile*`, `CrusaderKings`,
-`dragonage*`, `*rimworld*`, `Undertale*`, `*totalwar*`, `shogun2`, `vinted_france`, `egg_irl`.
+`dragonage*`, `*rimworld*`, `Undertale*`, `*totalwar*`, `shogun2`, `vinted_france`, `egg_irl`,
+`BoyDinnerDiaries`, `Ishowspeed`, `nba`, `starcitizen`.
 
 - **Formule 1** : `*f1*`, `*formula1*`, `formulaone*`, `formuladank`.
 - **Jeux gacha** : `*gacha*`, `*genshin*`, `*honkai*`, `HonkaiStarRail`, `houkai3rd`, `*starrail*`, `*zenless*`, `ZZZ_*`, `*wuthering*`,
